@@ -54,6 +54,70 @@ public class RippleBackground extends RelativeLayout{
         init(context, attrs);
     }
 
+    public int getRippleColor() {
+        return rippleColor;
+    }
+
+    public void setRippleColor(int rippleColor) {
+        this.rippleColor = rippleColor;
+    }
+
+    public float getRippleStrokeWidth() {
+        return rippleStrokeWidth;
+    }
+
+    public void setRippleStrokeWidth(float rippleStrokeWidth) {
+        this.rippleStrokeWidth = rippleStrokeWidth;
+    }
+
+    public float getRippleRadius() {
+        return rippleRadius;
+    }
+
+    public void setRippleRadius(float rippleRadius) {
+        this.rippleRadius = rippleRadius;
+    }
+
+    public int getRippleDurationTime() {
+        return rippleDurationTime;
+    }
+
+    public void setRippleDurationTime(int rippleDurationTime) {
+        this.rippleDurationTime = rippleDurationTime;
+    }
+
+    public int getRippleAmount() {
+        return rippleAmount;
+    }
+
+    public void setRippleAmount(int rippleAmount) {
+        this.rippleAmount = rippleAmount;
+    }
+
+    public int getRippleDelay() {
+        return rippleDelay;
+    }
+
+    public void setRippleDelay(int rippleDelay) {
+        this.rippleDelay = rippleDelay;
+    }
+
+    public float getRippleScale() {
+        return rippleScale;
+    }
+
+    public void setRippleScale(float rippleScale) {
+        this.rippleScale = rippleScale;
+    }
+
+    public int getRippleType() {
+        return rippleType;
+    }
+
+    public void setRippleType(int rippleType) {
+        this.rippleType = rippleType;
+    }
+
     private void init(final Context context, final AttributeSet attrs) {
         if (isInEditMode())
             return;
